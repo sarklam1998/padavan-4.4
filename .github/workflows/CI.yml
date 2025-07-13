@@ -28,7 +28,7 @@ jobs:
           #- build_variant: "mt7621-usb-2"
           #  targets: "MI-R3G JCG-AC860M NETGEAR-BZV MI-R3P R2100 RM2100 MSG1500 BELL-A040WQ"
           - build_variant: "mt7621-jdc"
-            targets: "RE-CP-02 RE-SP-01B"
+            targets: "JDCLOUD-RE-CP-02 JDCLOUD-RE-SP-01B"
     steps:
       - uses: actions/checkout@v4
       - name: Prepare environment
